@@ -1,0 +1,21 @@
+.list-ProjectShowCase {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+    background-color: #e6e9ec;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 5px;
+  }
+  .image-ProjectShowCase {
+    height: 130px;
+    border-radius: 5px;
+  }
+  .para-ProjectShowCase {
+    color: #475569;
+    font-weight: 500;
+  }
+  

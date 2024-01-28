@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.nav-project {
+  background-color: #cbd5e1;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  padding-left: 80px;
+}
+.logo-project {
+  height: 36px;
+}
+.container-project {
+  padding: 50px;
+  padding-right: 80px;
+  padding-left: 80px;
+  width: 100%;
+  height: auto;
+  background-color: #e2e8f0;
+}
+.select-project {
+  width: 21%;
+  border-style: solid;
+  padding: 7px;
+  border-color: #cbd5e1;
+  font-size: 16px;
+  color: #475569;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-bottom: 40px;
+}
+.option-project {
+  font-size: 15px;
+  font-weight: 500;
+  color: #475569;
+}
+.loader-project {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.ul-project {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.failure-card-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.failure-image-project {
+  margin: 20px;
+  height: 200px;
+}
+.failure-head-project {
+  color: #475569;
+  font-size: 26px;
+  font-family: roboto;
+  margin-bottom: -1px;
+}
+.failure-para-project {
+  color: #475569;
+  font-weight: 500;
+  font-family: roboto;
+}
+.failure-button-project {
+  color: #e2e8f0;
+  padding: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #328af2;
+  border-radius: 3px;
+  border-width: 0px;
+  cursor: pointer;
+}
